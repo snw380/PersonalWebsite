@@ -1,0 +1,45 @@
+nav {
+    background-image: linear-gradient(to right, black,white);
+    opacity: 70%;
+    
+}
+
+img {
+    opacity: 90%;
+    float: right;
+    margin: 100px;
+    box-shadow: 5px 5px 6px rgba(0, 0, 0, 0.6);
+}
+
+body {
+    background-image: linear-gradient(to right, black,white);
+}
+
+#red-nav {
+    font-weight: 500;
+    color: #ffff;
+}
+
+.padding {
+    opacity: 70%;
+    padding: 50px;
+}
+
+div [class="btn btn-primary"] {
+    background-color: #c91700;
+}
+
+p {
+    opacity: 93%;
+    font-size: 20px;
+    margin: 100px;
+    color: #c91700;
+    font-weight: 500;
+    text-shadow: 1.5px 1.5px 2px rgba(0, 0, 0, 0.6);
+}
+
+.contact-links {
+    opacity: 65%;
+    margin: 100px;
+    text-shadow: 3px 3px 3px rgba(5, 5, 5, 0.6);
+}
