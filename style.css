@@ -4,7 +4,7 @@ nav {
     
 }
 
-img {
+#img2 {
     opacity: 90%;
     float: right;
     margin: 100px;
@@ -18,28 +18,75 @@ body {
 #red-nav {
     font-weight: 500;
     color: #ffff;
+    
 }
 
 .padding {
     opacity: 70%;
     padding: 50px;
+    bottom: 0;
 }
 
 div [class="btn btn-primary"] {
     background-color: #c91700;
 }
 
-p {
+.contact-p {
     opacity: 93%;
     font-size: 20px;
     margin: 100px;
-    color: #c91700;
+    color: #ffff;
     font-weight: 500;
     text-shadow: 1.5px 1.5px 2px rgba(0, 0, 0, 0.6);
 }
 
-.contact-links {
+.contact-links{
     opacity: 65%;
-    margin: 100px;
-    text-shadow: 3px 3px 3px rgba(5, 5, 5, 0.6);
+    margin: 30px auto;
+    position: absolute;
+    left: 0;
+    bottom: 0;
 }
+
+.contact-links ul li{
+    list-style: none;
+    margin: 0 50px;
+    cursor: pointer;
+    font-weight: 550;
+}
+
+.card {
+    box-shadow: 5px 5px 6px rgba(0, 0, 0, 0.6);
+}
+
+.display-4 {
+    opacity: 85%;
+    background: -webkit-linear-gradient(#c91700,black);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 500;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.6);
+
+}
+
+.lead {
+    opacity: 85%;
+    background: -webkit-linear-gradient(#c91700,black);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.6);
+    font-weight: 900;
+}
+
+[class="jumbotron jumbotron-fluid"] {
+    background-image: linear-gradient(to right,black,#fff);
+}
+
+[class="btn btn-primary"]:hover {
+    background: black;
+}
+
+.card-body {
+    background: #c4c2c1;
+}
+
