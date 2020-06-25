@@ -71,10 +71,8 @@ div [class="btn btn-primary"] {
 
 .lead {
     opacity: 85%;
-    background: -webkit-linear-gradient(#c91700,black);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.6);
+    color:black;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.6);
     font-weight: 900;
 }
 
