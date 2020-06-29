@@ -11,19 +11,34 @@ nav {
     box-shadow: 5px 5px 6px rgba(0, 0, 0, 0.6);
 }
 
+.h1 {
+    padding-top: 50px;
+    color: #ffff;
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6);
+    font-size: 50px;
+    padding-left: 50px;
+    opacity: 90%;
+}
+
 #img2 {
     opacity: 90%;
     float: right;
     margin: 50px;
     box-shadow: 5px 5px 6px rgba(0, 0, 0, 0.8);
+}
+
+#img3 {
+    opacity: 90%;
+    float: right;
+    box-shadow: 5px 5px 6px rgba(0, 0, 0, 0.8);
 } 
 
 #img-p {
-    padding-top: 50px;
+    padding: 50px;
     color: #ffff;
-    text-shadow: 1.5px 1.5px 2px rgba(0, 0, 0, 0.6);
+    text-shadow: 1.5px 1.5px 2px rgba(0, 0, 0, 2);
     font-size: 20px;
-    padding-left: 50px;
+    padding-left: 100px;
     opacity: 90%;
 }
 
@@ -48,6 +63,14 @@ div [class="btn btn-primary"] {
     background-color: #c91700;
 }
 
+.form-group {
+    opacity: 93%;
+    font-size: 20px;
+    color: #ffff;
+    font-weight: 500;
+    text-shadow: 1.5px 1.5px 2px rgba(0, 0, 0, 0.6);
+}
+
 .contact-p {
     opacity: 93%;
     font-size: 20px;
@@ -57,12 +80,12 @@ div [class="btn btn-primary"] {
     text-shadow: 1.5px 1.5px 2px rgba(0, 0, 0, 0.6);
 }
 
-.contact-links{
-    opacity: 65%;
-    margin: 30px auto;
-    position: absolute;
-    left: 0;
+.contact-links {
+    opacity: 75%;
+    margin: 30px;
     bottom: 0;
+    position: fixed;
+    width: 100%;
 }
 
 .contact-links ul li{
@@ -116,3 +139,10 @@ div [class="btn btn-primary"] {
 .card-body {
     background: #c4c2c1;
 }
+
+@media only screen and (max-width: 950px) {
+
+    .container {
+        margin-bottom: 35%;
+    }
+} 
